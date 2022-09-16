@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+#inicio{
+
+    width: 100%;
+    height: 100vh;
+}
+
+#inicio .contenido{
+
+}
+
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, .8);
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+
+#inicio .contenido .contenido-header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: aliceblue;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header h1:hover{
+    color: rgb(14, 131, 234);
+}
+
+
+#icon-nav{
+    display: none;
+    color: aliceblue;
+    font-size: 22px;
+}
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+    font-size: 30px;
+
+}
+#inicio .contenido header .contenido-header nav ul li a:hover {
+
+    color: rgb(14, 131, 234);
+
+
+}
+#inicio .contenido header .contenido-header nav ul li a.seleccionado {
+    transition: .5s;
+    font-size: 40px;
+    color: rgb(14, 131, 234);
+    text-shadow: 1px 1px 2px aliceblue ;
+
+
+}
+
+.redes a i{
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 12px;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .5s;
+
+}
+.redes a i:hover{
+    color: rgb(14, 131, 234);
+}
+
+#inicio .contenido .informacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 200px 15px;
+    display: flex;
+}
+
+#inicio .contenido .informacion .foto{
+    
+    padding: 0px;
+    max-width: 400px;
+    margin-right: 50px;
+    height: 40vh;
+}
+
+#inicio .contenido .informacion .foto img{
+    
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+ 
+}
+
+#inicio .contenido .informacion .title{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: rgb(183, 183, 224);
+    text-decoration-thickness: 5px;
+    margin-bottom: 20px;
+ 
+}
+#inicio .contenido .informacion .contacto{
+    padding: 20px;
+    max-width: 50%;
+    padding-bottom: 100px;
+}
+#inicio .contenido .informacion .contacto .title{
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: rgb(183, 183, 224);
+    text-decoration-thickness: 5px;
+    margin-bottom: 20px;
+}
+
+#inicio .contenido .informacion .contacto p{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+#content-research{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+    transition: .5s;
+    margin-bottom: 100px;
+
+    
+}
+
+#content-research .article{
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    transition: .5s;
+
+}
+#content-research p:hover{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a ;
+    
+}
+
+
+/*Teaching*/
+#content-teaching{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 300px 15px;
+    display: block;
+    transition: .5s;
+    margin-bottom: 100px;
+    
+}
+
+#content-teaching .article{
+    max-width: 100%;
+    margin: 10px;
+    transition: .5s;
+}
+
+/*estilos contacto*/
+#content-contact{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 300px 15px;
+    display: flex;
+    transition: .5s;
+    margin-bottom: 100px;
+    
+}
+
+#content-contact .article{
+    max-width: 100%;
+    margin: 10px;
+    transition: .5s;
+    font-size: larger;
+    margin: 100px;
+}
+
+
+footer{
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 200px;
+ 
+    
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    margin: 5px;  
+    font-weight: 400;
+    font-size: 20px;
+    transition: .5s;
+}
+
+
