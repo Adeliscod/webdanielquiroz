@@ -331,6 +331,7 @@ footer .redes-footer{
 
     #content-contact{
         display: block;
+        height: auto;
         margin: auto;
         padding: 200px 15px;
         max-width: 500px;
