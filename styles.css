@@ -317,7 +317,15 @@ footer .redes-footer{
         justify-content: center;
         text-align: center;
     }
- 
+     /*teaching*/ 
+     #inicio .contenido .content-teaching{
+        display: block;
+        padding: 200px 0;
+        height: auto;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
     
     /*contact*/   
 
