@@ -274,6 +274,9 @@ footer .redes-footer{
         margin-top: 10px;
         display: block;
     }
+    #inicio{
+        height: auto;
+    }
     #inicio .contenido .presentacion h2{
         font-size: 40px;
     }
