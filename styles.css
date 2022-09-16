@@ -29,7 +29,7 @@
     width: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
     padding: 10px 20px;
 }
@@ -38,6 +38,7 @@
     padding-top: 10px;
     color: aliceblue;
     transition: .5s;
+    font-size: 30px;
 }
 #inicio .contenido header .contenido-header h1:hover{
     color: rgb(14, 131, 234);
@@ -78,6 +79,9 @@
     text-shadow: 1px 1px 2px aliceblue ;
 
 
+}
+.redes{
+    display: none;
 }
 
 .redes a i{
@@ -210,8 +214,12 @@
     margin: 10px;
     transition: .5s;
     font-size: larger;
-    margin: 100px;
+    
 }
+#content-contact iframe{
+    margin-left: 20px;
+}
+
 
 
 footer{
@@ -232,5 +240,93 @@ footer a{
     font-size: 20px;
     transition: .5s;
 }
+footer .redes-footer{
+  display: none;
+}
+
+@media screen and (max-width:800px) {
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+        }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+
+    }
+
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icon-nav{
+        font-size: 30px;
+        margin-top: 10px;
+        display: block;
+    }
+    #inicio .contenido .presentacion h2{
+        font-size: 40px;
+    }
+    #inicio .contenido .presentacion .descripcion{
+        text-align: center;
+    }
+
+    /*About*/
+    #inicio .contenido .informacion{
+        display: block;
+        padding: 200px 0;
+        height: auto;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    #inicio .contenido .informacion .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            margin: auto;
+    }
+    #inicio .contenido .informacion .foto{
+        max-width: 300px;
+        margin: auto;
+
+    }
+  
+    
+    /*contact*/   
+
+    #content-contact{
+        display: block;
+        margin: auto;
+        padding: 200px 15px;
+        max-width: 500px;
+    
+     }
+     #content-contact .article{
+        width: 100%;
+        margin-bottom: 30px;
+     }
+
+     #content-contact iframe{
+         width: 100%;
+         margin: 0;
+     }
 
 
+
+     footer{
+        width: 100%;
+     }
+}
+    
