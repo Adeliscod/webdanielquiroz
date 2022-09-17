@@ -256,7 +256,7 @@ footer .redes-footer{
         background-color: rgba(0, 0, 0, .8);
         width: 100%;
         position: absolute;
-        top: 66px;
+        top: 62px;
         left: 0;
         padding: 10px 0;
         }
@@ -271,7 +271,7 @@ footer .redes-footer{
     }
     #icon-nav{
         font-size: 30px;
-        margin-top: 10px;
+        margin-top: 5px;
         display: block;
     }
     #inicio{
@@ -311,7 +311,7 @@ footer .redes-footer{
      /*research*/   
      #content-research{
         display: block;
-        padding: 300px 0;
+        padding: 200px 0;
         height: auto;
         margin: auto;
         justify-content: center;
